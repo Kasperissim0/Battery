@@ -151,5 +151,17 @@ To https://github.com/Kasperissim0/Battery.git
    babce74..820396e  main -> main
 Wed Dec 24 18:50:28 CET 2025: New minimum reached: 62%
 Wed Dec 24 18:50:28 CET 2025: Syncing Changes With GitHub
-Wed Dec 24 19:01:02 CET 2025: New minimum reached: 60%
-Wed Dec 24 19:01:02 CET 2025: Syncing Changes With GitHub
+To https://github.com/Kasperissim0/Battery.git
+   4f2dd51..257fa40  main -> main
+Wed Dec 24 18:55:00 CET 2025: New minimum reached: 61%
+Wed Dec 24 18:55:00 CET 2025: Syncing Changes With GitHub
+To https://github.com/Kasperissim0/Battery.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Kasperissim0/Battery.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Wed Dec 24 18:55:00 CET 2025: ERROR - Git push failed
+Wed Dec 24 19:01:47 CET 2025: New minimum reached: 60%
+Wed Dec 24 19:01:47 CET 2025: Syncing Changes With GitHub
