@@ -1,0 +1,67 @@
+[ OLD M1 2020 MAC AIR ]
+
+Mon Dec 15 10:28:46 CET 2025: Initialized minimum battery tracker at 100%
+Mon Dec 15 10:28:46 CET 2025: Battery monitor daemon started
+Mon Dec 15 10:30:46 CET 2025: New minimum reached: 99% (previous: 100%)
+Mon Dec 15 10:32:47 CET 2025: New minimum reached: 98% (previous: 99%)
+Mon Dec 15 10:35:47 CET 2025: New minimum reached: 97% (previous: 98%)
+Mon Dec 15 10:44:12 CET 2025: New minimum reached: 96% (previous: 97%)
+Mon Dec 15 11:01:50 CET 2025: New minimum reached: 95% (previous: 96%)
+Mon Dec 15 11:10:46 CET 2025: New minimum reached: 94% (previous: 95%)
+Mon Dec 15 11:22:03 CET 2025: New minimum reached: 93% (previous: 94%)
+Mon Dec 15 11:30:02 CET 2025: New minimum reached: 92% (previous: 93%)
+Mon Dec 15 11:33:02 CET 2025: New minimum reached: 91% (previous: 92%)
+Mon Dec 15 11:37:02 CET 2025: New minimum reached: 90% (previous: 91%)
+Mon Dec 15 11:39:03 CET 2025: New minimum reached: 89% (previous: 90%)
+Mon Dec 15 11:43:03 CET 2025: New minimum reached: 88% (previous: 89%)
+Mon Dec 15 11:44:23 CET 2025: Battery monitor daemon started
+Mon Dec 15 11:45:23 CET 2025: New minimum reached: 87%
+Mon Dec 15 11:48:24 CET 2025: New minimum reached: 86%
+Mon Dec 15 11:51:38 CET 2025: New minimum reached: 85%
+Mon Dec 15 11:54:38 CET 2025: New minimum reached: 84%
+Mon Dec 15 11:56:39 CET 2025: New minimum reached: 83%
+Mon Dec 15 11:59:39 CET 2025: New minimum reached: 81%
+Mon Dec 15 12:00:39 CET 2025: New minimum reached: 79%
+Mon Dec 15 12:04:40 CET 2025: New minimum reached: 78%
+Mon Dec 15 12:05:40 CET 2025: New minimum reached: 77%
+Mon Dec 15 12:07:39 CET 2025: Battery monitor daemon started
+Mon Dec 15 12:08:39 CET 2025: New minimum reached: 74%
+Mon Dec 15 14:26:26 CET 2025: Battery monitor daemon started
+Mon Dec 15 16:44:42 CET 2025: Battery monitor daemon started
+Mon Dec 15 17:30:46 CET 2025: New minimum reached: 71%
+Mon Dec 15 17:32:46 CET 2025: New minimum reached: 70%
+Mon Dec 15 17:34:46 CET 2025: New minimum reached: 69%
+Mon Dec 15 17:36:46 CET 2025: New minimum reached: 68%
+Mon Dec 15 17:37:47 CET 2025: New minimum reached: 67%
+Mon Dec 15 17:39:47 CET 2025: New minimum reached: 65%
+Mon Dec 15 17:44:47 CET 2025: New minimum reached: 64%
+Mon Dec 15 17:45:47 CET 2025: New minimum reached: 62%
+Mon Dec 15 17:48:48 CET 2025: New minimum reached: 61%
+Mon Dec 15 17:50:48 CET 2025: New minimum reached: 60%
+Mon Dec 15 17:51:48 CET 2025: New minimum reached: 58%
+Mon Dec 15 17:55:48 CET 2025: New minimum reached: 57%
+Mon Dec 15 17:57:48 CET 2025: New minimum reached: 55%
+Mon Dec 15 17:59:49 CET 2025: New minimum reached: 54%
+Mon Dec 15 18:07:49 CET 2025: New minimum reached: 53%
+Mon Dec 15 20:09:54 CET 2025: Battery monitor daemon started
+Mon Dec 15 20:14:13 CET 2025: Battery monitor daemon started
+Tue Dec 16 22:06:23 CET 2025: New minimum reached: 52%
+Tue Dec 16 22:08:23 CET 2025: New minimum reached: 51%
+Tue Dec 16 22:11:24 CET 2025: New minimum reached: 50%
+Tue Dec 16 22:12:24 CET 2025: New minimum reached: 49%
+Tue Dec 16 22:13:24 CET 2025: New minimum reached: 48%
+Tue Dec 16 22:18:24 CET 2025: New minimum reached: 47%
+Tue Dec 16 22:20:24 CET 2025: New minimum reached: 46% [ COMPUTER TURNED OFF ]
+Tue Dec 16 22:21:38 CET 2025: New minimum reached: 12% [ RELOADED WITH THIS VALUE ]
+Tue Dec 16 22:22:38 CET 2025: New minimum reached: 15%
+
+[ NEW M4 2024 MAC AIR ]
+
+Mon Dec 15 10:28:46 CET 2025: Initialized minimum battery tracker at 100%
+Wed Dec 24 14:01:21 CET 2025: Battery monitor daemon started
+Wed Dec 24 14:01:21 CET 2025: New minimum reached: 85%
+Wed Dec 24 14:05:44 CET 2025: New minimum reached: 84%
+Wed Dec 24 14:08:53 CET 2025: Battery monitor daemon started
+Wed Dec 24 14:11:08 CET 2025: New minimum reached: 83%
+Wed Dec 24 14:16:24 CET 2025: New minimum reached: 82%
+Wed Dec 24 14:21:40 CET 2025: New minimum reached: 81%
