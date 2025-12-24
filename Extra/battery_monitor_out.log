@@ -1,0 +1,4 @@
+[main e042c68] New Low Achieved: 80%
+ 4 files changed, 2 insertions(+), 1 deletion(-)
+ rename Extra/{Scripts & Specs => Script & Spec}/battery_monitor.sh (100%)
+ rename Extra/{Scripts & Specs => Script & Spec}/com.user.batterymonitor.plist (100%)

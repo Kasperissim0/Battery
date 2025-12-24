@@ -41,6 +41,8 @@ while true; do
         if git add . 2>> "$FILE_LOG"; then
             if git commit -m "New Low Achieved: $CURRENT%" 2>> "$FILE_LOG"; then
                 git push 2>> "$FILE_LOG" || echo "$(date): Warning - Git push failed" >> "$FILE_LOG"
+            else
+                echo "$(date): Warning - Git commit failed" >> "$FILE_LOG"
             fi
         else
             echo "$(date): Warning - Git add failed" >> "$FILE_LOG"
