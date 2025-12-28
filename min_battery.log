@@ -283,3 +283,9 @@ To https://github.com/Kasperissim0/Battery.git
    2986a74..53e5d0c  main -> main
 Sun Dec 28 01:58:51 CET 2025: New minimum reached: 33%
 Sun Dec 28 01:58:51 CET 2025: Syncing Changes With GitHub
+To https://github.com/Kasperissim0/Battery.git
+   53e5d0c..72d2eca  main -> main
+Sun Dec 28 14:39:56 CET 2025: Battery monitor daemon started
+Sun Dec 28 14:41:10 CET 2025: Battery monitor daemon started
+Sun Dec 28 16:07:36 CET 2025: New minimum reached: 32%
+Sun Dec 28 16:07:36 CET 2025: Syncing Changes With GitHub
