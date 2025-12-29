@@ -26,7 +26,7 @@ Creates a daemon that checks the battery % every 45 seconds, and logs/saves it l
 ######
     cat Documents/1_Projects/Battery\ Health/min*
 
-# The Contents Of com.user.batterymonitor.plist @ 24.12.2025
+# The Contents Of com.user.batterymonitor.plist @ 2025-12-29
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -37,16 +37,16 @@ Creates a daemon that checks the battery % every 45 seconds, and logs/saves it l
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
-        <string>/Users/kornienkodaniel/Documents/1_Projects/Battery Health/Extra/Script & Spec/battery_monitor.sh</string>
+        <string>/Users/kasperissim0/Code/Battery Health/Extra/Script & Spec/battery_monitor.sh</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>
     <true/>
     <key>StandardOutPath</key>
-    <string>/Users/kornienkodaniel/Documents/1_Projects/Battery Health/Extra/battery_monitor_out.log</string>
+    <string>/Users/kasperissim0/Code/Battery Health/Extra/battery_monitor_out.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/kornienkodaniel/Documents/1_Projects/Battery Health/Extra/battery_monitor_err.log</string>
+    <string>/Users/kasperissim0/Code/Battery Health/Extra/battery_monitor_err.log</string>
 </dict>
 </plist>
 

@@ -3,7 +3,7 @@ set -e
 
 # Battery Monitor Daemon
 # Tracks the minimum battery percentage reached
-SAVE_PATH="/Users/kornienkodaniel/Documents/1_Projects/Battery Health"
+SAVE_PATH="/Users/kasperissim0/Code/Battery Health"
 FILE_LOWEST="$SAVE_PATH/min_value.log"
 FILE_LOG="$SAVE_PATH/min_battery.log"
 CHECK_INTERVAL=45  # Check every 45 seconds
@@ -29,6 +29,7 @@ while true; do
     
     # Read the minimum value from file
     MIN=$(head -n 1 "$FILE_LOWEST")
+    echo "Current Value: $CURRENT %"
     
     # If current is lower than minimum, update the file
     if [ "$CURRENT" -lt "$MIN" ]; then
