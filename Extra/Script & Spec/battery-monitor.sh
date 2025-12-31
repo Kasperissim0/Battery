@@ -29,7 +29,7 @@ while true; do
     
     # Read the minimum value from file
     MIN=$(head -n 1 "$FILE_LOWEST")
-    echo "Current Value: $CURRENT %"
+    # echo "Current Value: $CURRENT %"
     
     # If current is lower than minimum, update the file
     if [ "$CURRENT" -lt "$MIN" ]; then
