@@ -3,10 +3,25 @@ set -e
 
 # Battery Monitor Daemon
 # Tracks the minimum battery percentage reached
-SAVE_PATH="/Users/kasperissim0/Code/Projects/Battery Health"
+SAVE_PATH="/Users/kasperissim0/Code/Projects/Retired/Battery Benchmark"
 FILE_LOWEST="$SAVE_PATH/min_value.log"
 FILE_LOG="$SAVE_PATH/min_battery.log"
 CHECK_INTERVAL=45  # Check every 45 seconds
+MAX_LOG_SIZE_MB=10
+
+# Function to rotate logs if they exceed MAX_LOG_SIZE_MB
+rotate_logs() {
+    for log in "$FILE_LOG" "$SAVE_PATH/Extra/battery_monitor_out.log" "$SAVE_PATH/Extra/battery_monitor_err.log"; do
+        if [ -f "$log" ]; then
+            local size_kb=$(du -k "$log" | cut -f1)
+            if [ $((size_kb / 1024)) -ge $MAX_LOG_SIZE_MB ]; then
+                echo "$(date): Log file $log reached ${MAX_LOG_SIZE_MB}MB. Rotating..." >> "$log"
+                delete "$log"
+                touch "$log"
+            fi
+        fi
+    done
+}
 
 # Initialize log file if it doesn't exist
 if [ ! -f "$FILE_LOWEST" ]; then
@@ -17,6 +32,7 @@ fi
 echo "$(date): Battery monitor daemon started" >> "$FILE_LOG"
 
 while true; do
+    rotate_logs
     # Get current battery percentage
     CURRENT=$(pmset -g batt | grep -Eo "\d+%" | cut -d% -f1)
     
